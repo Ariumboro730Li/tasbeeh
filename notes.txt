@@ -1,0 +1,8 @@
+- build default file nya di android studio
+- develop di vscode 
+- jalankan command berikut untuk membuilt aplikasi android
+./gradlew clean
+./gradlew assembleDebug
+- apk default akan ada di folder app/build/outputs/apk/debug/app-debug.apk 
+- konek hape mu dgn usb debugging
+- jalan kan command adb install -r app/build/outputs/apk/debug/app-debug.apk
